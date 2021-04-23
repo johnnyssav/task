@@ -1,3 +1,34 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+    methods: [POST]
+
+country_index:
+  path: /country
+  controller: App\Controller\CountryController:index
+  methods: [GET]
+
+country_create:
+  path: /country
+  controller: App\Controller\CountryController:new
+  methods: [POST]
+
+country_delete:
+  path: /country/{cname}
+  controller: App\Controller\CountryController:delete
+  methods: [DELETE]
+
+city_index:
+    path: /city
+    controller: App\Controller\CityController:index
+    methods: [GET]
+
+city_create:
+    path: /city
+    controller: App\Controller\CityController:new
+    methods: [POST]
+
+city_delete:
+    path: /city/{id}
+    controller: App\Controller\CityController:delete
+    methods: [DELETE]
