@@ -11,5 +11,5 @@ Recruitment task, just open my edited commits to see my work, also check my anot
 ## Bundles
 * Symfony/Form for validations and constraints
 * Symfony/Controller
-* Symfony/Security(the user is saved in security.yaml(username: admin, password: admin), used json_login). City url is guarded also in security.yaml by ADMIN_ROLE
+* Symfony/Security(the user is saved in security.yaml(username: admin, password: admin), used json_login. City url is guarded also in security.yaml by ADMIN_ROLE
 * Please Check these three sections, also check .env file for database and migrations
