@@ -4,7 +4,7 @@
 * FOS Rest Bundle also used for testing purposes
 
 ## General info
-Recruitment task, just opem my edited commits to see my work, also check my another project https://github.com/johnnyssav/task2
+Recruitment task, just open my edited commits to see my work, also check my another project https://github.com/johnnyssav/task2
 
 
 	
